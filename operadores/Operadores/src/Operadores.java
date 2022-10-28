@@ -1,3 +1,5 @@
+import javax.swing.plaf.basic.BasicBorders.MarginBorder;
+
 public class Operadores {
     public static void main(String[] args) throws Exception {
        //Operadores
@@ -42,6 +44,40 @@ public class Operadores {
        //Operador Ternário - Forma resumida de definir condição
        //Escolher entre 2 valores - Como se fosse IF - Única
 
+        int a, b;
+        String resultado = "";
 
-    }
+        a = 5;
+        b = 6;
+
+        if(a==b)
+        resultado = "verdadeiro";
+        else
+        resultado = "falso";
+
+        resultado = a==b ? "verdadeiro" : "falso";
+
+        System.out.println(resultado);
+
+        //Operadores RELACIONAIS
+
+        // == Igual
+        // != Diferente
+        // > Maior
+        // < Maior
+        // >= Maior ou Igual
+        // <= Maior ou Igual
+
+        int num1 = 1;
+        int num2 = 2;
+
+        boolean simNao = num1 == num2;
+
+        if (num1<num2) {
+
+}
+            System.out.println(resultado);
+        }
+
+        //equals compara 2 objetos - Compara o conteúdo dos objetos
 }
