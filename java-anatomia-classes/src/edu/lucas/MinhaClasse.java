@@ -1,4 +1,4 @@
-package edu.lucas;
+//package edu.lucas;
 
 public class MinhaClasse {
     
